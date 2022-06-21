@@ -1,0 +1,98 @@
+/*Body Content Specifications*/
+body {
+    background: url(./images/game-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+    font-family: 'Rockwell', 'Comic Sans MS', 'Segoe Print', 'Times New Roman', Times, serif; 
+    color:white;
+    text-shadow:1px 2px rgba(0,0,0,.5) ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Button Specifications*/
+button { 
+    height: 40px;
+    width: 150px;
+    color:white;
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+    background-color: rgba(6, 20, 49, 0.817);
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    align-items: center;
+    vertical-align: middle; 
+    line-height: 0px;
+}
+
+/*Items in divisions*/
+.item1-1 {
+    font-size: 25px;
+    font-weight:800px;
+}
+.item1-2 {
+    margin-top: 10px;  
+    margin-bottom: 10px;
+}
+.item2-1 {
+    display: flex;
+    gap: 5px;  
+    justify-content: center; 
+}
+.item2-2 {
+    height: 50px;
+    width: 250px;
+    margin-top: 10px;
+    border-top: 70px solid white;
+    border-bottom: 70px solid white;
+    color: #3882f6;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: none;
+    background-color: white;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    vertical-align: middle;
+}
+.item2-3 {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: none;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+/* Header Division */
+div.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Game Control & Display Division*/
+div.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Image Specifications*/
+.image {
+    width: auto;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+#selection-rep{
+    border-radius: 25px;
+    height: 100px;
+}

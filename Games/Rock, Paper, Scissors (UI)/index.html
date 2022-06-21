@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS - UI</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>ROCK, PAPER, SCISSORS</h1>
+    <div class="container1">
+        <div class="item1-1">So what will it be?</div>    
+        <div class="item1-2">
+            <img class="image" id="selection-rep" src="./images/rock-paper-scissors.png" alt="cute rock paper scissors picture">
+        </div>
+    </div>
+    <div class="container2">
+        <div class="item2-1">
+            <button id="rock" onclick="isClicked('rock')"><h2>ROCK</h2></button>
+            <button id="paper" onclick="isClicked('paper')"><h2>PAPER</h2></button>
+            <button id="scissors" onclick="isClicked('scissors')"><h2>SCISSORS</h2></button>
+        </div>
+        <div class="item2-2"></div>
+        <div class="item2-3">
+            <div id="human-score"></div>
+            <div id="computer-score"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
