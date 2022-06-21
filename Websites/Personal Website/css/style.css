@@ -1,0 +1,71 @@
+/*Body Content Specifications*/
+body {
+    background-color: rgba(216, 147, 170, 0.868);
+    margin: 0px;
+    font-family: Garamond, Perpetua, Georgia,'Times New Roman', Times, serif; 
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/*URL Link Specifications*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited{
+    color:palevioletred;    
+    font-size: 25px;
+    font-weight: 50;
+}
+a:hover{
+    color:rgba(218, 178, 191, 0.868);
+}
+/*Items in divisions*/
+.a_item, .b_item, .c_item{
+    flex: 1;
+}
+/*Heading Division*/
+div.a {
+    color: rgb(255, 230, 238);
+    font-size: 25px;
+    font-weight:500;
+    text-shadow: 2px 3px rgba(0,0,0,.5);
+}
+/*Navigation Bar Division*/
+div.b {
+    border-top: 3px solid blanchedalmond;
+    border-bottom: 3px solid blanchedalmond;
+    background-color: white;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+/*Page Info Division*/
+div.c {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Page Specifications*/
+.toppad{
+    padding-top: 50px;
+}
+/*Image Specifications*/
+.image {
+    border-radius: 25%;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+#hi{
+    width: auto;
+    height: 200px;
+}
+#me{
+    width: 150px;
+    height: auto;
+}
+
+
